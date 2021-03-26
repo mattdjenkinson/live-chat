@@ -43,6 +43,11 @@ nav p {
 }
 nav p.email {
   font-size: 14px;
-  color: #999;
+  color: rgb(97, 97, 97);
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 </style>

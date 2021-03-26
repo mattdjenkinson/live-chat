@@ -41,8 +41,9 @@ export default {
 
 <style scoped>
 .chat-window {
-  background: #fafafa;
+  /* background: #fafafa; */
   padding: 30px 20px;
+  border-bottom: 1px solid #eee;
 }
 .single {
   margin: 18px 0;

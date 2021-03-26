@@ -1,6 +1,6 @@
 <template>
   <div class="welcome container">
-    <p>Welcome</p>
+    <h1>Chatterly</h1>
     <div v-if="showLogin">
       <h2>Login</h2>
       <LoginForm @login="enterChat" />
@@ -41,6 +41,10 @@ export default {
 </script>
 
 <style>
+h1 {
+  font-family: "Arima Madurai", cursive;
+}
+
 .welcome {
   text-align: center;
   padding: 20px 0;
@@ -56,7 +60,7 @@ export default {
   margin: 20px 0 10px;
 }
 .welcome input {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   border-radius: 20px;
   border: 1px solid #eee;

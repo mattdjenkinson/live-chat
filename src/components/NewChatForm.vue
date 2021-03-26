@@ -52,5 +52,6 @@ textarea {
   border-radius: 20px;
   font-family: inherit;
   outline: none;
+  background: none;
 }
 </style>
